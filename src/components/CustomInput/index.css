@@ -1,0 +1,30 @@
+.custom-input-container .min-max-container {
+    width: 100%;
+}
+
+.custom-input-container .min-max-container div.row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 4px;
+}
+
+.custom-input-container .min-max-container div.row:last-child {
+    padding-right: 0;
+}
+
+.custom-input-container div.ui.input {
+    display: flex;
+    flex: 1;
+    height: 32px;
+}
+
+.custom-input-container .min-max-container div.row div.ui.input {
+    padding: 0 4px;
+}
+
+h5 {
+    margin: 0 !important;
+    font-size: 12px !important;
+}

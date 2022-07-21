@@ -1,0 +1,14 @@
+div.browse-product-container {
+    position: absolute;
+    top: 116px;
+    left: 260px;
+    width: calc(100% - 260px);
+    /*height: calc(100% - 70px);*/
+    min-height: calc(100vh - 70px);
+    background-color: #fff4e6;
+}
+
+div.browse-product-container div.ui.pagination {
+    margin: 8px 36px !important;
+
+}

@@ -1,0 +1,280 @@
+{
+  "ProductSellers": [
+    {
+      "SellerId": 1,
+      "SellerName": "Magaza 1"
+    },
+    {
+      "SellerId": 2,
+      "SellerName": "Magaza 2"
+    },
+    {
+      "SellerId": 3,
+      "SellerName": "Magaza 3"
+    },
+    {
+      "SellerId": 4,
+      "SellerName": "Magaza 4"
+    }
+  ],
+  "ProductCategories": [
+    {
+      "ProductCategoryId": 1,
+      "ProductCategoryName": "Category 1"
+    },
+    {
+      "ProductCategoryId": 2,
+      "ProductCategoryName": "Category 2"
+    },
+    {
+      "ProductCategoryId": 3,
+      "ProductCategoryName": "Category 3"
+    },
+    {
+      "ProductCategoryId": 4,
+      "ProductCategoryName": "Category 4"
+    }
+  ],
+  "ProductBrands": [
+    {
+      "ProductBrandId": 1,
+      "ProductBrandName": "Brand 1"
+    },
+    {
+      "ProductBrandId": 2,
+      "ProductBrandName": "Brand 2"
+    },
+    {
+      "ProductBrandId": 3,
+      "ProductBrandName": "Brand 3"
+    },
+    {
+      "ProductBrandId": 4,
+      "ProductBrandName": "Brand 4"
+    }
+  ],
+  "Products": [
+    {
+      "ProductId": 1,
+      "ProductName": "Ürün 1",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 1 için detay yazısıdır ",
+      "ProductBrandId": 1,
+      "ProductCategoryId": 1,
+      "ProductSeller": 1,
+      "ProductPrice": 15.5,
+      "ProductRate": 4.5
+    },
+    {
+      "ProductId": 2,
+      "ProductName": "Ürün 2",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 2 için detay yazısıdır ",
+      "ProductBrandId": 1,
+      "ProductCategoryId": 1,
+      "ProductSeller": 1,
+      "ProductPrice": 20.5,
+      "ProductRate": 2.3
+    },
+    {
+      "ProductId": 3,
+      "ProductName": "Ürün 1",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 1 için detay yazısıdır ",
+      "ProductBrandId": 1,
+      "ProductCategoryId": 2,
+      "ProductSeller": 1,
+      "ProductPrice": 20.25,
+      "ProductRate": 5.0
+    },
+    {
+      "ProductId": 4,
+      "ProductName": "Ürün 4",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 4 için detay yazısıdır ",
+      "ProductBrandId": 1,
+      "ProductCategoryId": 2,
+      "ProductSeller": 1,
+      "ProductPrice": 15.5,
+      "ProductRate": 4.4
+    },
+    {
+      "ProductId": 5,
+      "ProductName": "Ürün 5",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 5 için detay yazısıdır ",
+      "ProductBrandId": 3,
+      "ProductCategoryId": 1,
+      "ProductSeller": 2,
+      "ProductPrice": 24.5,
+      "ProductRate": 4.4
+    },
+    {
+      "ProductId": 6,
+      "ProductName": "Ürün 6",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 1 için detay yazısıdır ",
+      "ProductBrandId": 2,
+      "ProductCategoryId": 1,
+      "ProductSeller": 2,
+      "ProductPrice": 30.45
+    },
+    {
+      "ProductId": 7,
+      "ProductName": "Ürün 7",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 7 için detay yazısıdır ",
+      "ProductBrandId": 3,
+      "ProductCategoryId": 3,
+      "ProductSeller": 2,
+      "ProductPrice": 35.5,
+      "ProductRate": 0
+    },
+    {
+      "ProductId": 8,
+      "ProductName": "Ürün 8",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 8 için detay yazısıdır ",
+      "ProductBrandId": 3,
+      "ProductCategoryId": 2,
+      "ProductSeller": 2,
+      "ProductPrice": 14.5
+    },
+    {
+      "ProductId": 9,
+      "ProductName": "Ürün 9",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 9 için detay yazısıdır ",
+      "ProductBrandId": 1,
+      "ProductCategoryId": 3,
+      "ProductSeller": 2,
+      "ProductPrice": 40.4,
+      "ProductRate": 2.3
+    },
+    {
+      "ProductId": 10,
+      "ProductName": "Ürün 10",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 10 için detay yazısıdır ",
+      "ProductBrandId": 2,
+      "ProductCategoryId": 2,
+      "ProductSeller": 3,
+      "ProductPrice": 15.5,
+      "ProductRate": 2.3
+    },
+    {
+      "ProductId": 11,
+      "ProductName": "Ürün 11",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 11 için detay yazısıdır ",
+      "ProductBrandId": 1,
+      "ProductCategoryId": 3,
+      "ProductSeller": 3,
+      "ProductPrice": 105.5,
+      "ProductRate": 5.0
+    },
+    {
+      "ProductId": 12,
+      "ProductName": "Ürün 12",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 12 için detay yazısıdır ",
+      "ProductBrandId": 2,
+      "ProductCategoryId": 2,
+      "ProductSeller": 3,
+      "ProductPrice": 109.5,
+      "ProductRate": 2.4
+    },
+    {
+      "ProductId": 13,
+      "ProductName": "Ürün 13",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 13 için detay yazısıdır ",
+      "ProductBrandId": 2,
+      "ProductCategoryId": 3,
+      "ProductSeller": 3,
+      "ProductPrice": 99.99,
+      "ProductRate": 3.5
+    },
+    {
+      "ProductId": 14,
+      "ProductName": "Ürün 14",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 14 için detay yazısıdır ",
+      "ProductBrandId": 1,
+      "ProductCategoryId": 1,
+      "ProductSeller": 3,
+      "ProductPrice": 40.5,
+      "ProductRate": 1.3
+    },
+    {
+      "ProductId": 15,
+      "ProductName": "Ürün 15",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 15 için detay yazısıdır ",
+      "ProductBrandId": 2,
+      "ProductCategoryId": 1,
+      "ProductSeller": 3,
+      "ProductPrice": 41.53,
+      "ProductRate": 4.1
+    },
+    {
+      "ProductId": 16,
+      "ProductName": "Ürün 16",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 16 için detay yazısıdır ",
+      "ProductBrandId": 1,
+      "ProductCategoryId": 3,
+      "ProductSeller": 4,
+      "ProductPrice": 21.0,
+      "ProductRate": 2.5
+    },
+    {
+      "ProductId": 17,
+      "ProductName": "Ürün 17",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 17 için detay yazısıdır ",
+      "ProductBrandId": 1,
+      "ProductCategoryId": 1,
+      "ProductSeller": 4,
+      "ProductPrice": 55.99,
+      "ProductRate": 2.2,
+      "ProductMaxBasket": 1
+    },
+    {
+      "ProductId": 18,
+      "ProductName": "Ürün 18",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 18 için detay yazısıdır ",
+      "ProductBrandId": 2,
+      "ProductCategoryId": 3,
+      "ProductSeller": 4,
+      "ProductPrice": 245.9,
+      "ProductRate": 2.2,
+      "ProductMaxBasket": 2
+    },
+    {
+      "ProductId": 19,
+      "ProductName": "Ürün 19",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 19 için detay yazısıdır ",
+      "ProductBrandId": 1,
+      "ProductCategoryId": 1,
+      "ProductSeller": 1,
+      "ProductPrice": 15.5,
+      "ProductRate": 4.3,
+      "ProductMinBasket": 2
+    },
+    {
+      "ProductId": 20,
+      "ProductName": "Ürün 20",
+      "ProductImage": "https://picsum.photos/200",
+      "ProductDetail": "Ürün 20 için detay yazısıdır ",
+      "ProductBrandId": 3,
+      "ProductCategoryId": 3,
+      "ProductSeller": 4,
+      "ProductPrice": 45,
+      "ProductRate": 4.5,
+      "ProductMinBasket": 1
+    }
+  ]
+}

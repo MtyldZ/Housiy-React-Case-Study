@@ -1,26 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Route, Routes,} from "react-router-dom";
 import './App.css';
+import {NavBar} from "./components/NavBar";
+import {MainScreen} from "./screens/MainScreen";
+import {DetailedProductScreen} from "./screens/DetailedProductScreen";
+import {FavouriteProductScreen} from "./screens/FavouriteProductScreen";
+import {Dimmer, Loader} from 'semantic-ui-react';
+import {store} from "./store";
+import {Provider, useSelector} from 'react-redux';
+import {UiState} from "./store/ui/state";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export function App() {
+    return (
+        <Provider store={store}>
+            <AppComponent/>
+        </Provider>
+    );
+}
+
+function AppComponent() {
+    const isBusy = useSelector<UiState, boolean>(state => state.isBusy);
+
+    return (
+        <div className="app">
+            <NavBar/>
+            {
+                isBusy ? (
+                    <Dimmer active>
+                        <Loader/>
+                    </Dimmer>
+                ) : null
+            }
+            <Routes>
+                <Route path="/" element={<MainScreen/>}/>
+                <Route path="/product/:id" element={<DetailedProductScreen/>}/>
+                <Route path="/favourites" element={<FavouriteProductScreen/>}/>
+            </Routes>
+        </div>
+    );
 }
 
 export default App;

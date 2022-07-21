@@ -1,0 +1,22 @@
+.browse-video-sidebar-container {
+    width: 260px !important;
+    height: calc(100vh - 70px);
+    padding: 14px !important;
+    border-width: 0 !important;
+    top: 70px !important;
+    background-color: #e9e3e3 !important;
+}
+
+.browse-video-sidebar-container .filter-item:last-child {
+    position: absolute;
+    bottom: 90px;
+    width: 230px;
+}
+
+h4 {
+    margin-bottom: 4px !important;
+}
+
+div.ui.divider {
+    margin: 8px 0;
+}

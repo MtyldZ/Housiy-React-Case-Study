@@ -1,0 +1,49 @@
+div.ui.header.small {
+    margin: 0 !important;
+}
+
+div.ui.header.tiny {
+    margin: 8px 0 0 0 !important;
+}
+
+.basket-container {
+    width: 100% !important;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    margin: 6px
+}
+
+.product-info {
+    height: 100px;
+    min-width: 200px;
+    margin: 6px;
+}
+
+.product-info .divider {
+    margin: 6px 0 !important;
+}
+
+.product-info h3 {
+    margin: 0 !important;
+}
+
+.product-actions {
+    display: flex;
+    align-items: center;
+}
+
+.product-actions div.ui.buttons {
+    height: 36px !important;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.product-actions h3 {
+    margin: 0;
+    text-align: center;
+}

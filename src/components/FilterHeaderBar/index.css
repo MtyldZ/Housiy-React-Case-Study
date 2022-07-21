@@ -1,0 +1,19 @@
+.filter-header-bar-container {
+    height: 46px;
+    width: calc(100vw - 260px);
+    position: fixed;
+    left: 260px;
+    top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #e9e3e3;
+    box-shadow: 0 2px 20px rgb(34 36 38 / 15%);
+    z-index: 103;
+    padding: 0 15px;
+}
+
+.filter-header-bar-container h4 {
+    margin: 0 15px 0 0 !important;
+}
